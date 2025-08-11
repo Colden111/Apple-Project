@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #000;
+}
+
+.logo {
+    font-size: 24px;
+    color: white;
+    margin-right: 30px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+.early-look {
+    color: #2997ff;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.products {
+    margin-top: 40px;
+}
+
+.products img {
+    max-width: 100%;
+    height: auto;
+}
+
+.iPhone-14 {
+    text-align: center;
+    margin-right: 100px;
+    line-height: 2;
+}
+
+.iPhone-14 h1 {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.iPhone-14 p {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 31px;
+}
+
+.iPhone-14 a {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+    margin-top: 10px;
+}
+
+.iPhone-image img {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: #fff;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+
+    min-width: 49%;
+    height: 636px;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#iphone {
+    background-image: url("../images/iPhone-14pro.png");
+    background-color: #000;
+}
+
+#ipad {
+    background-image: url("../images/iPad.png");
+    background-color: #f5f5f7;
+    color: black;
+}
+
+#airpods {
+    background-image: url("../images/airpods.png");
+}
+
+#watch {
+    background-image: url("../images/apple-watch.png");
+    background-color: #000;
+}
+
+#watch2 {
+    background-image: url("../images/watch2.png");
+    background-color: #000;
+}
+
+#card {
+    background-image: url("../images/card.png");
+}
+
+.card h2 {
+    font-size: 24px;
+}
+
+.card span {
+    font-weight: normal;
+    font-size: 16px;
+    display: block;
+}
+
+.card p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.links a,
+.card a {
+    color: #0071e3;
+    font-weight: bold;
+}
+
+.card h2 {
+    color: #00ff5e;
+}
+
+.card p {
+    color: #ff0000;
+}
+
+.card {
+    text-align: center;
+}
